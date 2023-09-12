@@ -23,7 +23,8 @@ add_filter( 'wp', SWT_NS . 'spectra_compatibility', 10, 2 );
  * @psalm-suppress MissingClosureParamType
  */
 add_filter( 'uagb_default_blocks_editor_spacing', function( $spacing ) {
-	return $spacing > 15 ? $spacing : 15;
+	$block_spacing = apply_filters( 'swt_spctr_editor_block_spacing', 36 );
+	return $spacing > $block_spacing ? $spacing : $block_spacing;
 });
 /**
  * @psalm-suppress MissingClosureParamType
