@@ -21,7 +21,7 @@ register_block_style(
 		'name'         => SWT_PFX . '-separator-wide-thin-line',
 		'label'        => __( 'Wide Thin Line', 'spectra-one' ),
 		'inline_style' => '
-        .is-style-' . SWT_PFX . '-separator-wide-thin-line:not(.is-style-wide):not(.is-style-dots){
+        .is-style-' . SWT_PFX . '-separator-wide-thin-line.wp-block-separator:not(.is-style-wide):not(.is-style-dots){
                 max-width: var(--wp--style--global--content-size);
                 width: 100%;
                 border-width: 1px;

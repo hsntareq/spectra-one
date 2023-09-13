@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Image with feature list
+ * Title: Image with feature list and heading
  * Slug: spectra-one/feature
  * Categories: featured
- * Keywords: image with feature list
+ * Keywords: Image with feature list and heading
  */
 
  $get_url = trailingslashit(get_template_directory_uri());
@@ -38,7 +38,7 @@
 <!-- /wp:group -->
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
-<div class="wp-block-column" style="flex-basis:5%"><!-- wp:image {"id":139,"width":24,"height":24,"sizeSlug":"large","linkDestination":"none","className":"swt-duotone-primary"} -->
+<div class="wp-block-column" style="flex-basis:5%"><!-- wp:image {"id":139,"width":24,"height":24,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}},"className":"swt-duotone-primary"} -->
 <figure class="wp-block-image size-large is-resized swt-duotone-primary"><img src="<?php echo esc_url( $images[1] ); ?>" alt="" class="wp-image-139" width="24" height="24"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
@@ -53,7 +53,7 @@
 <!-- /wp:columns -->
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
-<div class="wp-block-column" style="flex-basis:5%"><!-- wp:image {"id":866,"width":24,"height":24,"sizeSlug":"large","linkDestination":"none","className":"swt-duotone-primary"} -->
+<div class="wp-block-column" style="flex-basis:5%"><!-- wp:image {"id":866,"width":24,"height":24,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}},"className":"swt-duotone-primary"} -->
 <figure class="wp-block-image size-large is-resized swt-duotone-primary"><img src="<?php echo esc_url( $images[2] ); ?>" alt="" class="wp-image-866" width="24" height="24"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
@@ -68,7 +68,7 @@
 <!-- /wp:columns -->
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"5%"} -->
-<div class="wp-block-column" style="flex-basis:5%"><!-- wp:image {"id":867,"width":24,"height":24,"sizeSlug":"large","linkDestination":"none","className":"swt-duotone-primary"} -->
+<div class="wp-block-column" style="flex-basis:5%"><!-- wp:image {"id":867,"width":24,"height":24,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary"}},"className":"swt-duotone-primary"} -->
 <figure class="wp-block-image size-large is-resized swt-duotone-primary"><img src="<?php echo esc_url( $images[3] ); ?>" alt="" class="wp-image-867" width="24" height="24"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
