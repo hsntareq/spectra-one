@@ -2,7 +2,7 @@
 Contributors: brainstormforce
 Requires at least: 6.1
 Tested up to: 6.3
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 Tags: full-site-editing, blog, theme-options, rtl-language-support, full-width-template
@@ -132,6 +132,13 @@ https://wpspectra.com/wp-content/uploads/2023/07/avatar-square-4.jpg
 == Changelog ==
 
 = 1.0.6 =
+* New: Call to Action patterns.
+* New: Contact patterns.
+* New: FAQ pattern.
+* New: Testimonials patterns.
+* New: Feature patterns.
+* New: Text pattern.
+* New: Hero Banner pattern.
 * Fix: Navigation sub menu alignment issue.
 * Fix: Navigation menu adds the same color to sub menu which is added to main menu after WordPress 6.3
 * Fix: Site Title not working as expected on Firefox.

@@ -4,7 +4,7 @@
  *
  * @package Spectra One
  * @author Brainstorm Force
- * @since x.x.x
+ * @since 1.0.6
  */
 
 declare( strict_types=1 );
@@ -68,7 +68,7 @@ function render_navigation_block( string $block_content, array $block ): string 
 /**
  * Load Inline Css.
  *
- * @since x.x.x
+ * @since 1.0.6
  * @param string $css Inline CSS.
  * @return string
  */
