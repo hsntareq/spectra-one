@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Spectra One 1.0.5\n"
+"Project-Id-Version: Spectra One 1.0.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/spectra-one\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-08-22T14:23:08+02:00\n"
+"POT-Creation-Date: 2023-09-12T14:22:53+02:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: spectra-one\n"
@@ -58,13 +58,14 @@ msgstr ""
 #: patterns/alternate-image-text.php:45
 #: patterns/alternate-image-text.php:63
 #: patterns/alternate-image-text.php:91
+#: patterns/call-to-action-10.php:33
 #: patterns/footer-4.php:86
 #: patterns/footer-5.php:103
 #: patterns/hero-banner-2.php:32
 #: patterns/hero-banner-3.php:32
 #: patterns/hero-banner-4.php:31
 #: patterns/hero-banner-5.php:31
-#: patterns/hero-banner-6.php:30
+#: patterns/hero-banner-6.php:37
 #: patterns/hero-banner.php:29
 #: patterns/split-image-right.php:29
 msgid "Learn More"
@@ -165,11 +166,15 @@ msgid "Discover a new way to build website"
 msgstr ""
 
 #: patterns/alternate-image-text.php:24
+#: patterns/feature-4.php:33
+#: patterns/feature-5.php:33
+#: patterns/feature-6.php:21
 #: patterns/feature.php:36
 msgid "Get online quickly with easy-to-use Full Site Editor builder"
 msgstr ""
 
 #: patterns/alternate-image-text.php:36
+#: patterns/feature-6.php:30
 msgid "01"
 msgstr ""
 
@@ -178,10 +183,13 @@ msgid "Visual editing experience"
 msgstr ""
 
 #: patterns/alternate-image-text.php:42
+#: patterns/feature-8.php:32
+#: patterns/text-5.php:31
 msgid "Customize the entire website layout, including the header, footer, and all other template parts. With FSE, we can create and edit templates for their entire website, including single posts, archive pages, and custom post types."
 msgstr ""
 
 #: patterns/alternate-image-text.php:54
+#: patterns/feature-6.php:50
 msgid "02"
 msgstr ""
 
@@ -194,6 +202,7 @@ msgid "Block patterns are pre-designed block layouts that we can easily insert i
 msgstr ""
 
 #: patterns/alternate-image-text.php:82
+#: patterns/feature-6.php:70
 msgid "03"
 msgstr ""
 
@@ -265,6 +274,8 @@ msgstr ""
 
 #: patterns/call-to-action-2.php:14
 #: patterns/call-to-action-3.php:14
+#: patterns/call-to-action-8.php:12
+#: patterns/call-to-action-9.php:12
 #: patterns/call-to-action.php:14
 #: patterns/wide-banner-with-button.php:12
 msgid "Build your own website"
@@ -272,6 +283,8 @@ msgstr ""
 
 #: patterns/call-to-action-2.php:18
 #: patterns/call-to-action-3.php:18
+#: patterns/call-to-action-8.php:16
+#: patterns/call-to-action-9.php:16
 #: patterns/call-to-action.php:18
 #: patterns/wide-banner-with-button.php:15
 msgid "Take your website to the next level!"
@@ -279,6 +292,11 @@ msgstr ""
 
 #: patterns/call-to-action-2.php:25
 #: patterns/call-to-action-3.php:25
+#: patterns/call-to-action-4.php:30
+#: patterns/call-to-action-5.php:37
+#: patterns/call-to-action-8.php:21
+#: patterns/call-to-action-9.php:21
+#: patterns/call-to-action-10.php:29
 #: patterns/call-to-action.php:25
 #: patterns/header-2.php:31
 #: patterns/header-3.php:39
@@ -290,7 +308,7 @@ msgstr ""
 #: patterns/hero-banner-3.php:28
 #: patterns/hero-banner-4.php:28
 #: patterns/hero-banner-5.php:28
-#: patterns/hero-banner-6.php:27
+#: patterns/hero-banner-6.php:33
 #: patterns/hero-banner.php:26
 #: patterns/pricing-2.php:50
 #: patterns/pricing-2.php:110
@@ -315,8 +333,70 @@ msgctxt "Pattern title"
 msgid "Wide banner with button inverse"
 msgstr ""
 
+#: patterns/call-to-action-4.php
+msgctxt "Pattern title"
+msgid "Left text with image"
+msgstr ""
+
+#: patterns/call-to-action-4.php:21
+#: patterns/call-to-action-5.php:28
+#: patterns/call-to-action-6.php:32
+#: patterns/call-to-action-7.php:32
+#: patterns/call-to-action-10.php:20
+#: patterns/split-image-right.php:21
+msgid "Everything you need to create amazing websites"
+msgstr ""
+
+#: patterns/call-to-action-4.php:25
+#: patterns/call-to-action-5.php:32
+#: patterns/call-to-action-6.php:36
+#: patterns/call-to-action-7.php:36
+#: patterns/call-to-action-10.php:24
+#: patterns/split-image-right.php:24
+#: patterns/text-5.php:51
+msgid "Interactive design tools and its many customization options to customize anything and everything needed to build the fully-functional website of your dreams."
+msgstr ""
+
+#: patterns/call-to-action-5.php
+#: patterns/call-to-action-6.php
+#: patterns/call-to-action-7.php
+msgctxt "Pattern title"
+msgid "Right text with image"
+msgstr ""
+
+#: patterns/call-to-action-6.php:28
+#: patterns/call-to-action-7.php:28
+#: patterns/feature-4.php:25
+#: patterns/feature-5.php:25
+#: patterns/feature-6.php:13
+#: patterns/feature-8.php:23
+#: patterns/feature.php:29
+#: patterns/hero-banner-6.php:20
+#: patterns/text-5.php:22
+msgid "Full Site Editing"
+msgstr ""
+
+#: patterns/call-to-action-6.php:41
+#: patterns/call-to-action-7.php:41
+msgid "Install Spectra Theme"
+msgstr ""
+
+#: patterns/call-to-action-8.php
+msgctxt "Pattern title"
+msgid "Wide banner with button center blend"
+msgstr ""
+
+#: patterns/call-to-action-9.php
+msgctxt "Pattern title"
+msgid "Wide banner with button center inverse"
+msgstr ""
+
+#: patterns/call-to-action-10.php
+msgctxt "Pattern title"
+msgid "Wide Hero banner with background"
+msgstr ""
+
 #: patterns/call-to-action.php
-#: patterns/wide-banner-with-button.php
 msgctxt "Pattern title"
 msgid "Wide banner with button"
 msgstr ""
@@ -331,6 +411,8 @@ msgstr ""
 #: patterns/contact-4.php:27
 #: patterns/contact-5.php:70
 #: patterns/contact-6.php:75
+#: patterns/contact-7.php:90
+#: patterns/contact-8.php:91
 msgid "Esther Howard"
 msgstr ""
 
@@ -381,42 +463,60 @@ msgstr ""
 
 #: patterns/contact-5.php:22
 #: patterns/contact-6.php:23
+#: patterns/contact-7.php:22
+#: patterns/contact-8.php:23
 msgid "Meet the team"
 msgstr ""
 
 #: patterns/contact-5.php:25
 #: patterns/contact-6.php:26
+#: patterns/contact-7.php:26
+#: patterns/contact-8.php:27
 msgid "The talent driving our success"
 msgstr ""
 
 #: patterns/contact-5.php:28
 #: patterns/contact-6.php:29
+#: patterns/contact-7.php:30
+#: patterns/contact-8.php:31
 msgid "Meet our dedicated team of professionals who are passionate about providing top-notch service and delivering exceptional results."
 msgstr ""
 
 #: patterns/contact-5.php:36
 #: patterns/contact-6.php:39
+#: patterns/contact-7.php:42
+#: patterns/contact-8.php:43
 msgid "Wade Warren"
 msgstr ""
 
 #: patterns/contact-5.php:39
 #: patterns/contact-6.php:42
+#: patterns/contact-7.php:46
+#: patterns/contact-8.php:47
 msgid "Creative Director"
 msgstr ""
 
 #: patterns/contact-5.php:53
 #: patterns/contact-6.php:57
+#: patterns/contact-7.php:66
+#: patterns/contact-8.php:67
+#: patterns/contact-9.php:31
+#: patterns/testimonials-2.php:194
 #: patterns/testimonials.php:108
 msgid "Leslie Alexander"
 msgstr ""
 
 #: patterns/contact-5.php:56
 #: patterns/contact-6.php:60
+#: patterns/contact-7.php:70
+#: patterns/contact-8.php:71
 msgid "Product Manager"
 msgstr ""
 
 #: patterns/contact-5.php:73
 #: patterns/contact-6.php:78
+#: patterns/contact-7.php:94
+#: patterns/contact-8.php:95
 msgid "Senior Product Designer"
 msgstr ""
 
@@ -426,12 +526,39 @@ msgid "Teams four columns circle"
 msgstr ""
 
 #: patterns/contact-6.php:93
+#: patterns/contact-8.php:115
+#: patterns/testimonials-2.php:228
+#: patterns/testimonials-3.php:84
 #: patterns/testimonials.php:60
 msgid "Jacob Jones"
 msgstr ""
 
 #: patterns/contact-6.php:96
+#: patterns/contact-8.php:119
 msgid "Senior Developer"
+msgstr ""
+
+#: patterns/contact-7.php
+msgctxt "Pattern title"
+msgid "Teams three columns square"
+msgstr ""
+
+#: patterns/contact-8.php
+msgctxt "Pattern title"
+msgid "Teams four columns square"
+msgstr ""
+
+#: patterns/contact-9.php
+msgctxt "Pattern title"
+msgid "Author details"
+msgstr ""
+
+#: patterns/contact-9.php:27
+msgid "Meet the owner"
+msgstr ""
+
+#: patterns/contact-9.php:35
+msgid "Leslie loves exploring new foods, devouring motivational books, and hanging out with her loved ones. She's a real-life inspiration and proof that hard work and passion pay off!"
 msgstr ""
 
 #: patterns/contact.php
@@ -516,88 +643,242 @@ msgstr ""
 msgid "Follow us"
 msgstr ""
 
+#: patterns/faq-2.php
+msgctxt "Pattern title"
+msgid "Two column FAQ"
+msgstr ""
+
+#: patterns/faq-2.php:13
+msgid "Have a question?"
+msgstr ""
+
+#: patterns/faq-2.php:17
+#: patterns/faq.php:12
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: patterns/faq-2.php:25
+#: patterns/faq.php:27
+msgid "What are some benefits of using Full Site Editing?"
+msgstr ""
+
+#: patterns/faq-2.php:29
+#: patterns/faq.php:30
+msgid "Full Site Editing provides a more user-friendly, streamlined approach to website design and customization. It allows users to see changes in real-time, provides more control over design elements, and enables developers to create more custom blocks and templates."
+msgstr ""
+
+#: patterns/faq-2.php:37
+#: patterns/faq.php:16
+msgid "What is Full Site Editing?"
+msgstr ""
+
+#: patterns/faq-2.php:41
+#: patterns/faq.php:19
+msgid "Full Site Editing (FSE) is a feature in WordPress that allows users to visually design and customize their entire website, including the header, footer, and other template parts."
+msgstr ""
+
+#: patterns/faq-2.php:51
+#: patterns/faq.php:49
+msgid "Do I need to know how to code to use Full Site Editing?"
+msgstr ""
+
+#: patterns/faq-2.php:55
+#: patterns/faq.php:52
+msgid "No, Full Site Editing does not require knowledge of coding or web development. The drag-and-drop interface and pre-designed templates make it easy for users to create a professional-looking website without any coding experience."
+msgstr ""
+
+#: patterns/faq-2.php:63
+#: patterns/faq.php:38
+msgid "Can I use Full Site Editing on my existing WordPress website?"
+msgstr ""
+
+#: patterns/faq-2.php:67
+#: patterns/faq.php:41
+msgid "Yes, you can use Full Site Editing on an existing WordPress website by installing a compatible theme that supports the feature."
+msgstr ""
+
 #: patterns/faq.php
 msgctxt "Pattern title"
 msgid "FAQ"
 msgstr ""
 
-#: patterns/faq.php:12
-msgid "Frequently Asked Questions"
-msgstr ""
-
-#: patterns/faq.php:16
-msgid "What is Full Site Editing?"
-msgstr ""
-
-#: patterns/faq.php:19
-msgid "Full Site Editing (FSE) is a feature in WordPress that allows users to visually design and customize their entire website, including the header, footer, and other template parts."
-msgstr ""
-
-#: patterns/faq.php:27
-msgid "What are some benefits of using Full Site Editing?"
-msgstr ""
-
-#: patterns/faq.php:30
-msgid "Full Site Editing provides a more user-friendly, streamlined approach to website design and customization. It allows users to see changes in real-time, provides more control over design elements, and enables developers to create more custom blocks and templates."
-msgstr ""
-
-#: patterns/faq.php:38
-msgid "Can I use Full Site Editing on my existing WordPress website?"
-msgstr ""
-
-#: patterns/faq.php:41
-msgid "Yes, you can use Full Site Editing on an existing WordPress website by installing a compatible theme that supports the feature."
-msgstr ""
-
-#: patterns/faq.php:49
-msgid "Do I need to know how to code to use Full Site Editing?"
-msgstr ""
-
-#: patterns/faq.php:52
-msgid "No, Full Site Editing does not require knowledge of coding or web development. The drag-and-drop interface and pre-designed templates make it easy for users to create a professional-looking website without any coding experience."
-msgstr ""
-
-#: patterns/feature.php
+#: patterns/feature-2.php
 msgctxt "Pattern title"
-msgid "Image with feature list"
+msgid "Three column featured center"
 msgstr ""
 
-#: patterns/feature.php:29
-msgid "Full Site Editing"
-msgstr ""
-
-#: patterns/feature.php:33
-msgid "Unleash the power of block editor"
-msgstr ""
-
+#: patterns/feature-2.php:28
+#: patterns/feature-3.php:27
+#: patterns/feature-4.php:44
+#: patterns/feature-5.php:46
+#: patterns/feature-6.php:34
+#: patterns/feature-7.php:35
 #: patterns/feature.php:47
 #: patterns/three-column-featured.php:26
 msgid "Easily Customizable"
 msgstr ""
 
+#: patterns/feature-2.php:32
+#: patterns/feature-3.php:31
+#: patterns/feature-4.php:48
+#: patterns/feature-5.php:50
+#: patterns/feature-6.php:38
+#: patterns/feature-7.php:39
 #: patterns/feature.php:50
 #: patterns/three-column-featured.php:29
 msgid "Tailor your website to your liking with endless options to personalize the design and functionality."
 msgstr ""
 
+#: patterns/feature-2.php:42
+#: patterns/feature-3.php:41
+#: patterns/feature-4.php:58
+#: patterns/feature-5.php:62
+#: patterns/feature-6.php:54
+#: patterns/feature-7.php:49
 #: patterns/feature.php:62
 #: patterns/three-column-featured.php:37
 msgid "Blazing Fast"
 msgstr ""
 
+#: patterns/feature-2.php:46
+#: patterns/feature-3.php:45
+#: patterns/feature-4.php:62
+#: patterns/feature-5.php:66
+#: patterns/feature-6.php:58
+#: patterns/feature-7.php:53
 #: patterns/feature.php:65
 #: patterns/three-column-featured.php:40
 msgid "Experience lightning-fast page load speeds for optimal user experience and SEO ranking."
 msgstr ""
 
+#: patterns/feature-2.php:56
+#: patterns/feature-4.php:72
+#: patterns/feature-5.php:78
+#: patterns/feature-6.php:74
+#: patterns/feature-7.php:63
 #: patterns/feature.php:77
 #: patterns/three-column-featured.php:48
 msgid "SEO Optimized"
 msgstr ""
 
+#: patterns/feature-2.php:60
+#: patterns/feature-4.php:76
+#: patterns/feature-5.php:82
+#: patterns/feature-6.php:78
+#: patterns/feature-7.php:67
 #: patterns/feature.php:80
 #: patterns/three-column-featured.php:51
 msgid "Built with search engines in mind, achieve higher rankings and more traffic with optimized code."
+msgstr ""
+
+#: patterns/feature-3.php
+msgctxt "Pattern title"
+msgid "Two column featured left"
+msgstr ""
+
+#: patterns/feature-4.php
+msgctxt "Pattern title"
+msgid "Three column featured grid"
+msgstr ""
+
+#: patterns/feature-4.php:29
+#: patterns/feature-5.php:29
+#: patterns/feature-6.php:17
+#: patterns/feature-8.php:28
+#: patterns/feature.php:33
+#: patterns/text-5.php:27
+msgid "Unleash the power of block editor"
+msgstr ""
+
+#: patterns/feature-4.php:88
+#: patterns/feature-5.php:96
+#: patterns/feature-6.php:96
+msgid "Drag and Drop"
+msgstr ""
+
+#: patterns/feature-4.php:92
+#: patterns/feature-5.php:100
+#: patterns/feature-6.php:100
+msgid "Easily customize your website's layout and design using an intuitive, drag-and-drop interface."
+msgstr ""
+
+#: patterns/feature-4.php:102
+#: patterns/feature-5.php:112
+#: patterns/feature-6.php:116
+msgid "Global Styles"
+msgstr ""
+
+#: patterns/feature-4.php:106
+#: patterns/feature-5.php:116
+#: patterns/feature-6.php:120
+msgid "Define global styling settings for your website, such as typography, colors, and spacing."
+msgstr ""
+
+#: patterns/feature-4.php:116
+#: patterns/feature-5.php:128
+#: patterns/feature-6.php:136
+msgid "Design Patterns"
+msgstr ""
+
+#: patterns/feature-4.php:120
+#: patterns/feature-5.php:132
+#: patterns/feature-6.php:140
+msgid "Spectra offers a wide selection of meticulously crafted patterns to enhance your content."
+msgstr ""
+
+#: patterns/feature-5.php
+msgctxt "Pattern title"
+msgid "Three column featured grid outline"
+msgstr ""
+
+#: patterns/feature-6.php
+msgctxt "Pattern title"
+msgid "Three column featured grid background"
+msgstr ""
+
+#: patterns/feature-6.php:42
+#: patterns/feature-6.php:62
+#: patterns/feature-6.php:82
+#: patterns/feature-6.php:104
+#: patterns/feature-6.php:124
+#: patterns/feature-6.php:144
+#: patterns/feature-8.php:36
+msgid "Learn More →"
+msgstr ""
+
+#: patterns/feature-6.php:92
+msgid "04"
+msgstr ""
+
+#: patterns/feature-6.php:112
+msgid "05"
+msgstr ""
+
+#: patterns/feature-6.php:132
+msgid "06"
+msgstr ""
+
+#: patterns/feature-7.php
+msgctxt "Pattern title"
+msgid "Image with feature list"
+msgstr ""
+
+#: patterns/feature-8.php
+msgctxt "Pattern title"
+msgid "Image with feature list column"
+msgstr ""
+
+#: patterns/feature-8.php:52
+msgid "Tailor your website to your liking with endless options."
+msgstr ""
+
+#: patterns/feature-8.php:64
+msgid "Experience lightning-fast page load speeds."
+msgstr ""
+
+#: patterns/feature.php
+msgctxt "Pattern title"
+msgid "Image with feature list and heading"
 msgstr ""
 
 #: patterns/featured-logos.php
@@ -907,7 +1188,7 @@ msgstr ""
 #: patterns/hero-banner-3.php:19
 #: patterns/hero-banner-4.php:21
 #: patterns/hero-banner-5.php:21
-#: patterns/hero-banner-6.php:20
+#: patterns/hero-banner-6.php:24
 #: patterns/hero-banner.php:19
 msgid "Launch Your Website Today!"
 msgstr ""
@@ -916,7 +1197,7 @@ msgstr ""
 #: patterns/hero-banner-3.php:23
 #: patterns/hero-banner-4.php:24
 #: patterns/hero-banner-5.php:24
-#: patterns/hero-banner-6.php:23
+#: patterns/hero-banner-6.php:28
 #: patterns/hero-banner.php:22
 msgid "Create a functional and visually appealing website"
 msgstr ""
@@ -1241,14 +1522,6 @@ msgctxt "Pattern title"
 msgid "Split image right"
 msgstr ""
 
-#: patterns/split-image-right.php:21
-msgid "Everything you need to create amazing websites"
-msgstr ""
-
-#: patterns/split-image-right.php:24
-msgid "Interactive design tools and its many customization options to customize anything and everything needed to build the fully-functional website of your dreams."
-msgstr ""
-
 #: patterns/template-404.php
 msgctxt "Pattern title"
 msgid "Template 404"
@@ -1311,73 +1584,159 @@ msgctxt "Pattern title"
 msgid "Template single"
 msgstr ""
 
-#: patterns/testimonials.php
+#: patterns/testimonials-2.php
 msgctxt "Pattern title"
-msgid "Testimonial"
+msgid "Testimonial grid"
 msgstr ""
 
+#: patterns/testimonials-2.php:24
+#: patterns/testimonials-3.php:22
 #: patterns/testimonials.php:22
 msgid "Testimonials"
 msgstr ""
 
+#: patterns/testimonials-2.php:28
+#: patterns/testimonials-3.php:26
 #: patterns/testimonials.php:25
 msgid "See what people have to say about us"
 msgstr ""
 
-#: patterns/testimonials.php:37
-msgid "Darlene Robertson"
+#: patterns/testimonials-2.php:37
+#: patterns/testimonials-2.php:71
+#: patterns/testimonials-2.php:105
+#: patterns/testimonials-2.php:141
+#: patterns/testimonials-2.php:175
+#: patterns/testimonials-2.php:209
+#: patterns/testimonials-3.php:33
+#: patterns/testimonials-3.php:65
+#: patterns/testimonials-3.php:97
+msgid "★★★★★"
 msgstr ""
 
-#: patterns/testimonials.php:40
-msgid "Web designer"
-msgstr ""
-
+#: patterns/testimonials-2.php:41
+#: patterns/testimonials-3.php:37
 #: patterns/testimonials.php:45
 msgid "Highly recommended!"
 msgstr ""
 
-#: patterns/testimonials.php:48
-msgid "This theme made the process of building my website a breeze. The drag-and-drop interface was easy to use and the templates were customizable."
+#: patterns/testimonials-2.php:45
+msgid "This theme made the process of building my website a breeze. The drag-and-drop interface was easy to use and the templates were customizable. "
 msgstr ""
 
-#: patterns/testimonials.php:63
-msgid "Freelancer"
+#: patterns/testimonials-2.php:56
+#: patterns/testimonials-3.php:52
+#: patterns/testimonials.php:37
+msgid "Darlene Robertson"
 msgstr ""
 
+#: patterns/testimonials-2.php:60
+#: patterns/testimonials-3.php:56
+#: patterns/testimonials.php:40
+msgid "Web designer"
+msgstr ""
+
+#: patterns/testimonials-2.php:75
+#: patterns/testimonials-3.php:69
 #: patterns/testimonials.php:68
 msgid "Endless customization"
 msgstr ""
 
+#: patterns/testimonials-2.php:79
+#: patterns/testimonials-3.php:73
 #: patterns/testimonials.php:71
 msgid "Endless customization options and responsive design, plus great customer support. Highly recommend!"
 msgstr ""
 
+#: patterns/testimonials-2.php:90
+#: patterns/testimonials-3.php:116
 #: patterns/testimonials.php:85
 msgid "Ralph Edwards"
 msgstr ""
 
+#: patterns/testimonials-2.php:94
+#: patterns/testimonials-3.php:120
 #: patterns/testimonials.php:88
 msgid "Marketing Coordinator"
 msgstr ""
 
-#: patterns/testimonials.php:93
-msgid "Great on any device"
+#: patterns/testimonials-2.php:109
+msgid "Superb quality!"
 msgstr ""
 
-#: patterns/testimonials.php:96
-msgid "I've used a few different website builders over the years, and this one is by far the best. The responsive design ensures that my website looks great on any device."
+#: patterns/testimonials-2.php:113
+msgid "I've tried countless themes, but none have impressed me as much as this! It's incredibly fast, which means my website load in a snap."
 msgstr ""
 
-#: patterns/testimonials.php:111
-msgid "Business owner"
+#: patterns/testimonials-2.php:124
+msgid "Jenny Wilson"
 msgstr ""
 
+#: patterns/testimonials-2.php:128
+msgid "Marketer"
+msgstr ""
+
+#: patterns/testimonials-2.php:145
 #: patterns/testimonials.php:116
 msgid "Easy to use"
 msgstr ""
 
+#: patterns/testimonials-2.php:149
 #: patterns/testimonials.php:119
 msgid "As a small business owner, I needed a website that was affordable. I was able to create a beautiful website that represented my brand."
+msgstr ""
+
+#: patterns/testimonials-2.php:160
+msgid "Ronald Richards"
+msgstr ""
+
+#: patterns/testimonials-2.php:164
+msgid "Developer"
+msgstr ""
+
+#: patterns/testimonials-2.php:179
+msgid "Really love it!"
+msgstr ""
+
+#: patterns/testimonials-2.php:183
+msgid "This block-based WordPress theme is a game-changer. I've struggled with complex themes in the past, but this one is easy to use."
+msgstr ""
+
+#: patterns/testimonials-2.php:198
+#: patterns/testimonials.php:111
+msgid "Business owner"
+msgstr ""
+
+#: patterns/testimonials-2.php:213
+#: patterns/testimonials-3.php:101
+#: patterns/testimonials.php:93
+msgid "Great on any device"
+msgstr ""
+
+#: patterns/testimonials-2.php:217
+#: patterns/testimonials-3.php:105
+#: patterns/testimonials.php:96
+msgid "I've used a few different website builders over the years, and this one is by far the best. The responsive design ensures that my website looks great on any device."
+msgstr ""
+
+#: patterns/testimonials-2.php:232
+#: patterns/testimonials-3.php:88
+#: patterns/testimonials.php:63
+msgid "Freelancer"
+msgstr ""
+
+#: patterns/testimonials-3.php
+msgctxt "Pattern title"
+msgid "Testimonial list"
+msgstr ""
+
+#: patterns/testimonials-3.php:41
+#: patterns/testimonials.php:48
+msgid "This theme made the process of building my website a breeze. The drag-and-drop interface was easy to use and the templates were customizable."
+msgstr ""
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Testimonial"
 msgstr ""
 
 #: patterns/text-2.php
@@ -1432,6 +1791,23 @@ msgstr ""
 msgid "Mi accumsan pharetra auctor egestas morbi facilisis."
 msgstr ""
 
+#: patterns/text-5.php
+msgctxt "Pattern title"
+msgid "text with download"
+msgstr ""
+
+#: patterns/text-5.php:39
+msgid "Download Spectra Theme"
+msgstr ""
+
+#: patterns/text-5.php:43
+msgid "Version 1.0.0"
+msgstr ""
+
+#: patterns/text-5.php:56
+msgid "Download Now"
+msgstr ""
+
 #: patterns/text.php
 msgctxt "Pattern title"
 msgid "Counter three column left"
@@ -1440,6 +1816,11 @@ msgstr ""
 #: patterns/three-column-featured.php
 msgctxt "Pattern title"
 msgid "Three column featured"
+msgstr ""
+
+#: patterns/wide-banner-with-button.php
+msgctxt "Pattern title"
+msgid "Wide banner with button center"
 msgstr ""
 
 #: assets/js/editor.js:1
@@ -1473,34 +1854,34 @@ msgstr ""
 #: assets/js/editor.js:1
 #: build/editor.js:496
 #: src/components/install-plugin-notice.js:102
-#: build/editor.js:509
+#: build/editor.js:507
 msgid "Spectra plugin"
 msgstr ""
 
 #: assets/js/editor.js:1
 #: build/editor.js:498
 #: src/components/install-plugin-notice.js:106
-#: build/editor.js:513
+#: build/editor.js:511
 msgid "Power-up your website with advanced and powerful blocks that help you build websites in no time!"
 msgstr ""
 
 #: assets/js/editor.js:1
-#: build/editor.js:769
+#: build/editor.js:772
 #: src/extensions/panel/components.js:29
 #: build/editor.js:771
 msgid "Disable Elements"
 msgstr ""
 
 #: assets/js/editor.js:1
-#: build/editor.js:773
+#: build/editor.js:776
 #: src/extensions/panel/components.js:38
 #: build/editor.js:780
 msgid "Header Settings"
 msgstr ""
 
 #: assets/js/editor.js:1
-#: build/editor.js:824
-#: build/editor.js:828
+#: build/editor.js:827
+#: build/editor.js:831
 #: src/extensions/panel/sidebar.js:19
 #: src/extensions/panel/sidebar.js:27
 #: build/editor.js:818

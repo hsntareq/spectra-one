@@ -3,7 +3,7 @@
  * Title: Image with feature list column
  * Slug: spectra-one/feature-8
  * Categories: featured
- * Keywords: image with feature list
+ * Keywords: Image with feature list column
  */
 
  $get_url = trailingslashit(get_template_directory_uri());
