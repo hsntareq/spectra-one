@@ -38,11 +38,17 @@
     "scripts": {
         "format-fix-exit": "\"vendor/bin/phpcbf-fix-exit-0\" --standard=phpcs.xml --report-summary --report-source -s  --runtime-set testVersion 7.0- ",
         "format": "phpcbf --standard=phpcs.xml --report-summary --report-source -s  --runtime-set testVersion 7.0- ",
-        "phpcs": "phpcs --standard=phpcs.xml -s  --runtime-set testVersion 7.0-",
+		"phpcs": "vendor/bin/phpcs",
+		"phpcbf": "vendor/bin/phpcbf",
         "lint": "composer run-script phpcs",
         "phpcs-i": "phpcs -i",
         "psalm": "./vendor/bin/psalm",
         "gen-stubs": "vendor/bin/generate-stubs spectra-one/ --out=psalm/spectra-one-stubs.php",
-        "update-stubs": "rm -f psalm/spectra-one-stubs.php && grunt release-no-clean && composer gen-stubs"
-    }
+        "update-stubs": "rm -f psalm/spectra-one-stubs.php && grunt release-no-clean && composer gen-stubs",
+		"commit:hook:pre": [
+		  "cp .scripts/git-hooks/pre-commit .git/hooks/",
+		  "chmod +x .git/hooks/pre-commit",
+		  "echo 'pre-commit hook copied'"
+		]
+	}
 }
