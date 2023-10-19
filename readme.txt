@@ -131,6 +131,9 @@ https://wpspectra.com/wp-content/uploads/2023/07/avatar-square-4.jpg
 
 == Changelog ==
 
+= 1.0.7 =
+* Fix: Post title color changed from heading to link color.
+
 = 1.0.6 =
 * New: Call to Action patterns.
 * New: Contact patterns.
