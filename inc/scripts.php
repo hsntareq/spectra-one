@@ -114,9 +114,8 @@ function enqueue_editor_scripts(): void {
 		add_editor_style( $css_uri . 'compatibility/duotone' . $file_prefix . '.css' );
 	}
 
+	// Load in pages and post editor.
 	add_editor_style( $css_uri . 'editor' . $file_prefix . '.css' );
-
-	add_editor_style( $css_uri . 'gutenberg' . $file_prefix . '.css' );
 
 	wp_register_script( SWT_SLUG . '-editor', $js . 'editor.js', $deps, SWT_VER, true );
 
@@ -187,8 +186,23 @@ function enqueue_editor_block_styles(): void {
 	// Disable Core Block Patterns.
 	remove_theme_support( 'core-block-patterns' );
 
+	$file_prefix = defined( 'SWT_DEBUG' ) && SWT_DEBUG ? '' : '.min';
+	$dir_name    = defined( 'SWT_DEBUG' ) && SWT_DEBUG ? 'unminified' : 'minified';
+
+	$css_uri = get_uri() . 'assets/css/' . $dir_name . '/';
+
 	// Add support for block styles.
 	add_theme_support( 'wp-block-styles' );
+
+	// Enqueue editor styles.
+	/** @psalm-suppress UndefinedFunction */ // phpcs:ignore PossiblyFalseArgument, Generic.Commenting.DocComment.MissingShort -- Function exist in helpers.php
+	if ( wp_version_compare( '6.2.99', '<=' ) ) {
+		add_editor_style( $css_uri . 'compatibility/duotone' . $file_prefix . '.css' );
+	}
+
+	add_editor_style( $css_uri . 'editor' . $file_prefix . '.css' );
+
+	add_editor_style( $css_uri . 'gutenberg' . $file_prefix . '.css' );
 
 }
 
