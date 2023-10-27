@@ -105,8 +105,17 @@ function enqueue_editor_scripts(): void {
 	$settings_asset = defined( 'SWT_DEBUG' ) && SWT_DEBUG ? require SWT_DIR . 'build/settings.asset.php' : require SWT_DIR . 'assets/js/settings.asset.php';
 	$settings_deps  = $settings_asset['dependencies'];
 	array_push( $settings_deps, 'updates' );
-	
+
 	wp_enqueue_style( SWT_SLUG . '-gutenberg-editor', $css_uri . 'gutenberg-editor' . $file_prefix . '.css', array(), SWT_VER );
+
+	// Enqueue editor styles.
+	/** @psalm-suppress UndefinedFunction */ // phpcs:ignore PossiblyFalseArgument, Generic.Commenting.DocComment.MissingShort -- Function exist in helpers.php
+	if ( wp_version_compare( '6.2.99', '<=' ) ) {
+		add_editor_style( $css_uri . 'compatibility/duotone' . $file_prefix . '.css' );
+	}
+
+	// Load in pages and post editor.
+	add_editor_style( $css_uri . 'editor' . $file_prefix . '.css' );
 
 	wp_register_script( SWT_SLUG . '-editor', $js . 'editor.js', $deps, SWT_VER, true );
 
@@ -198,6 +207,8 @@ function enqueue_editor_block_styles(): void {
 }
 
 add_action( 'after_setup_theme', SWT_NS . 'enqueue_editor_block_styles' );
+
+
 
 /**
  * Enqueue Editor Scripts.

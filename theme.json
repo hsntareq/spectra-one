@@ -506,6 +506,20 @@
           }
         }
       },
+      "core/post-title": {
+        "elements": {
+            "link": {
+                "color": {
+                  "text": "var(--wp--preset--color--heading)"
+                },
+                ":hover": {
+                  "color": {
+                    "text": "var(--wp--preset--color--heading)"
+                  }
+                }
+            }
+        }
+    },
       "core/navigation": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--small)",

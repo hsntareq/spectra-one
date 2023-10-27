@@ -69,7 +69,7 @@ function render_welcome_notice(): void {
 			<div class="swt-col">
 				<div class="notice-content">
 					<p class="sub-notice-title">
-						<?php esc_html_e( 'Thanks for installing the Spectra One theme 🎉', 'spectra-one' ); ?>
+						<?php esc_html_e( 'Thanks for installing the Spectra One theme &#x1F389;', 'spectra-one' ); ?>
 					</p>
 					<h2 class="notice-title">
 						<?php esc_html_e( 'Please install the Spectra Builder', 'spectra-one' ); ?>
