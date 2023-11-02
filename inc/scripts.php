@@ -105,7 +105,10 @@ function enqueue_editor_scripts(): void {
 	$settings_asset = defined( 'SWT_DEBUG' ) && SWT_DEBUG ? require SWT_DIR . 'build/settings.asset.php' : require SWT_DIR . 'assets/js/settings.asset.php';
 	$settings_deps  = $settings_asset['dependencies'];
 	array_push( $settings_deps, 'updates' );
-	
+
+	// Enqueue editor styles for post and page.
+	wp_enqueue_style( SWT_SLUG . '-editor-css', $css_uri . 'editor' . $file_prefix . '.css', array(), SWT_VER );
+
 	wp_enqueue_style( SWT_SLUG . '-gutenberg-editor', $css_uri . 'gutenberg-editor' . $file_prefix . '.css', array(), SWT_VER );
 
 	wp_register_script( SWT_SLUG . '-editor', $js . 'editor.js', $deps, SWT_VER, true );
@@ -198,6 +201,8 @@ function enqueue_editor_block_styles(): void {
 }
 
 add_action( 'after_setup_theme', SWT_NS . 'enqueue_editor_block_styles' );
+
+
 
 /**
  * Enqueue Editor Scripts.
