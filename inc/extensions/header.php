@@ -237,7 +237,8 @@ function header_wp_admin_bar_spacing_js( string $js ): string {
 		const wpAdminBar = document.querySelector('#wpadminbar');
 		const header = document.querySelector( 'header' );
 
-		if( header && wpAdminBar ) {
+
+		if( header && wpAdminBar && ! header.classList.contains('swt-transparent-header') ) {
 			header.style.top = wpAdminBar.offsetHeight + 'px';
 		}
 	}
