@@ -514,3 +514,29 @@ body.swt-stacked-title-visibility {
 		@include swt-hide-common;
 	}
 }
+
+
+/*--------------------------------------------------------------
+# Announcement bar compatibility
+--------------------------------------------------------------*/
+
+$mobile: 781px;
+
+@media screen and (max-width: $mobile) {
+
+	.swt-text-align-center {
+		text-align: center;
+	}
+
+	.swt-responsive-position-left {
+		justify-content: left !important;
+	}
+
+	.swt-responsive-position-center {
+		justify-content: center !important;
+	}
+
+	.swt-responsive-position-right {
+		justify-content: right !important;
+	}
+}

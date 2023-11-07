@@ -396,3 +396,21 @@ body.swt-stacked-title-visibility .edit-post-visual-editor__post-title-wrapper .
     opacity: 0.4;
   }
 }
+
+/*--------------------------------------------------------------
+# Announcement bar compatibility
+--------------------------------------------------------------*/
+@media screen and (max-width: 781px) {
+  .swt-text-align-center {
+    text-align: center;
+  }
+  .swt-responsive-position-left {
+    justify-content: left !important;
+  }
+  .swt-responsive-position-center {
+    justify-content: center !important;
+  }
+  .swt-responsive-position-right {
+    justify-content: right !important;
+  }
+}

@@ -131,6 +131,12 @@ https://wpspectra.com/wp-content/uploads/2023/07/avatar-square-4.jpg
 
 == Changelog ==
 
+= 1.0.7 =
+* Fix: Post title color changed from heading to link color.
+* Fix: Translation issue with WPML plugin.
+* Fix: Site Title Hide and Show styling issue with eye icon.
+* Fix: Compatibility with WordPress 6.4.
+
 = 1.0.6 =
 * New: Call to Action patterns.
 * New: Contact patterns.
