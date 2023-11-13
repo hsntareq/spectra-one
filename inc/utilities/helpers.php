@@ -351,8 +351,7 @@ function css_string_to_array( string $css ): array {
 function is_page_title( int $post_id = 0 ): bool {
 	$get_check_title = get_post_meta( $post_id, '_swt_meta_site_title_display', true );
 	$check_meta      = $get_check_title ? true : false;
-
-	return ! is_admin() && is_singular() && boolval( $check_meta ) && ! in_the_loop();
+	return is_singular() && boolval( $check_meta );
 }
 
 

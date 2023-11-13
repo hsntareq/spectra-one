@@ -54,11 +54,10 @@ function icomoon_inline_css( string $css ): string {
  * Load icomoon editor inline css.
  *
  * @since 1.0.0
- * @param array  $editor_settings Inline CSS.
- * @param object $block_editor_context Inline CSS.
+ * @param array $editor_settings Inline CSS.
  * @return array
  */
-function icomoon_block_editor_css( array $editor_settings, object $block_editor_context ):array {
+function icomoon_block_editor_css( array $editor_settings ):array {
 
 	$editor_settings['styles'][] = array( 'css' => icomoon_import_fonts() );
 

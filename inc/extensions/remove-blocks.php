@@ -27,10 +27,9 @@ add_filter( 'render_block', SWT_NS . 'render_remove_blocks', 10, 2 );
 function render_remove_blocks( string $block_content, array $block ):string {
 	$post_id = get_the_ID();
 
-
 	// condition for page and post title.
 	/** @psalm-suppress UndefinedFunction */ // phpcs:ignore PossiblyFalseArgument, Generic.Commenting.DocComment.MissingShort -- Function exist in helpers.php
-	if ( $post_id && is_page_title( $post_id ) && isset( $block['attrs']['className'] ) && ( 'swt-block-page-banner-group' === $block['attrs']['className'] || 'swt-block-post-banner-group' === $block['attrs']['className'] ) ) {
+	if ( $post_id && is_page_title( $post_id ) && isset( $block['attrs']['className'] ) && ( 'swt-block-page-banner-group' === $block['attrs']['className'] || 'swt-block-post-banner-group' === $block['attrs']['className'] || 'swt-block-post-title' === $block['attrs']['className'] || 'swt-block-page-title' === $block['attrs']['className'] ) ) {
 		return '';
 	}
 
