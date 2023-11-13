@@ -55,7 +55,6 @@ function post_featured_image_inline_css( string $css ): string {
 			'justify-content' => 'center',
 			'background'      => 'var(--wp--preset--color--surface)',
 			'border'          => '0',
-			'aspect-ratio'    => '16/9',
 		),
 	);
 
