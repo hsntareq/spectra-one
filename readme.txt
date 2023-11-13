@@ -1,8 +1,8 @@
 === Spectra One ===
 Contributors: brainstormforce
 Requires at least: 6.1
-Tested up to: 6.3
-Stable tag: 1.0.6
+Tested up to: 6.4
+Stable tag: 1.0.7
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 Tags: full-site-editing, blog, theme-options, rtl-language-support, full-width-template
@@ -139,6 +139,7 @@ https://wpspectra.com/wp-content/uploads/2023/07/avatar-square-4.jpg
 * Fix: Post title color changed from heading to link color.
 * Fix: Translation issue with WPML plugin.
 * Fix: Site Title Hide and Show styling issue with eye icon.
+* Fix: Compatibility with WordPress 6.4.
 
 = 1.0.6 =
 * New: Call to Action patterns.
