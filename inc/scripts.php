@@ -106,9 +106,6 @@ function enqueue_editor_scripts(): void {
 	$settings_deps  = $settings_asset['dependencies'];
 	array_push( $settings_deps, 'updates' );
 
-	// Enqueue editor styles for post and page.
-	wp_enqueue_style( SWT_SLUG . '-editor-css', $css_uri . 'editor' . $file_prefix . '.css', array(), SWT_VER );
-
 	wp_enqueue_style( SWT_SLUG . '-gutenberg-editor', $css_uri . 'gutenberg-editor' . $file_prefix . '.css', array(), SWT_VER );
 
 	wp_register_script( SWT_SLUG . '-editor', $js . 'editor.js', $deps, SWT_VER, true );
@@ -131,6 +128,23 @@ function enqueue_editor_scripts(): void {
 }
 
 add_action( 'enqueue_block_editor_assets', SWT_NS . 'enqueue_editor_scripts' );
+
+function enqueue_block_assets(): void {
+	$file_prefix = defined( 'SWT_DEBUG' ) && SWT_DEBUG ? '' : '.min';
+	$dir_name    = defined( 'SWT_DEBUG' ) && SWT_DEBUG ? 'unminified' : 'minified';
+
+	$css_uri = get_uri() . 'assets/css/' . $dir_name . '/';
+
+	/* RTL */
+	if ( is_rtl() ) {
+		$file_prefix .= '-rtl';
+	}
+
+	// Enqueue editor styles for post and page.
+	wp_enqueue_style( SWT_SLUG . '-editor', $css_uri . 'editor' . $file_prefix . '.css', array(), SWT_VER );
+}
+
+add_action( 'enqueue_block_assets', SWT_NS . 'enqueue_block_assets' );
 
 /**
  * Localize Editor Script.
