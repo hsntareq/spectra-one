@@ -29,7 +29,7 @@ function render_remove_blocks( string $block_content, array $block ):string {
 
 	// condition for page and post title.
 	/** @psalm-suppress UndefinedFunction */ // phpcs:ignore PossiblyFalseArgument, Generic.Commenting.DocComment.MissingShort -- Function exist in helpers.php
-	if ( $post_id && is_page_title( $post_id ) && isset( $block['attrs']['className'] ) && ( 'swt-block-page-banner-group' === $block['attrs']['className'] || 'swt-block-post-banner-group' === $block['attrs']['className'] || 'swt-post-title' === $block['attrs']['className'] ) ) {
+	if ( $post_id && is_page_title( $post_id ) && isset( $block['attrs']['className'] ) && ( 'swt-block-page-banner-group' === $block['attrs']['className'] || 'swt-block-post-banner-group' === $block['attrs']['className'] || 'swt-block-post-title' === $block['attrs']['className'] || 'swt-block-page-title' === $block['attrs']['className'] ) ) {
 		return '';
 	}
 
